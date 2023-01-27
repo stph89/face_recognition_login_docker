@@ -1,9 +1,4 @@
-.know_people/
-.unknow_people/
-.info_facial/
-.png
-.jpg
-.jpeg
+.info_facial
 .mypy_cache
 .coverage
 htmlcov
