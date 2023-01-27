@@ -1,0 +1,13 @@
+.know_people/
+.unknow_people/
+.info_facial/
+.png
+.jpg
+.jpeg
+.mypy_cache
+.coverage
+htmlcov
+.env
+.idea
+.pyc
+**/__pycache__
