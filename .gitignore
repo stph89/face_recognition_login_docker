@@ -1,0 +1,8 @@
+info_facial/* 
+.mypy_cache
+.coverage
+htmlcov
+.env
+.idea
+.pyc
+**/__pycache__
