@@ -73,7 +73,8 @@ Currently the packages for face_recognition are not fully supported on Windows, 
 	```
 	$ python manage.py createsuperuser
 	```
- !(https://user-images.githubusercontent.com/110174766/217020849-06fb9e59-06e9-43c6-98f6-76ccc1043ded.png)
+![Captura de Pantalla 2023-02-06 a las 15 41 45](https://user-images.githubusercontent.com/110174766/217022005-001a3eb1-740a-4be6-82ba-ad37103dcef3.png)
+
 
 
 5. Run the program.
