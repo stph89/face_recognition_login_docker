@@ -110,7 +110,7 @@ This is a face recognition system on live video from a local webcam.
 	$ python manage.py runserver --nothreading --noreload
 	```
 
-6. Make sure to navigate in your browser to 'http://localhost:8000/' to view the application.
+6. Make sure to navigate in your browser to `http://localhost:8000/` to view the application.
   
 
 7. To access the admin type the following into the browser while the server is running `http://localhost:8000/admin`. 
