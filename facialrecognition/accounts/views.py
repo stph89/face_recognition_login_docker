@@ -103,8 +103,8 @@ def verifyPhoto(request):
                 user_photo_name.append(file)
 
                 # DEBUG print
-                print(user_photo)
-                print(user_photo_name)
+                # print(user_photo)
+                # print(user_photo_name)
 
             else:
                 print("¡No se detectó un área de cara válida!")
