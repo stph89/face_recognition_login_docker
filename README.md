@@ -22,13 +22,8 @@ The requirements needed for this project are as follows :
 
 ## Installation
   
+For run theses facial recognition demos, You required to install the following python module.
 
-#### Installing Packages on Mac or Linux follow the instructions below
-
-* https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf
-  
-
-Then you are required to install the following python module (Make sure you are using the latest version of pip):
 
 ```
 pip3 install django
@@ -37,14 +32,15 @@ pip3 install opencv-python
 pip3 install Pillow
 pip3 install face_recognition
 ```
-  
+  **Note:** Make sure you are using the latest version of pip.
+#### For Mac or Linux --> follow the instructions of [face_recognition docs](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
 
-#### Installing Packages on Windows
+#### For Windows --> follow the instructions of [face_recognition docs](https://github.com/ageitgey/face_recognition/issues/175#issue-257710508)
 
-Currently the packages for face_recognition are not fully supported on Windows, to get around this issue you must follows the instructions of [face_recognition docs](https://github.com/ageitgey/face_recognition/issues/175#issue-257710508)
+**Note:** Currently the packages for face_recognition are not fully supported on Windows. 
 
 
-## Demos with face recognition and openCV libraries.
+## Demos with `face recognition` and `openCV` libraries.
 We proposed two demos using [face recognition library](https://github.com/ageitgey/face_recognition):
 
  **i. Simple sample of Face recognition system on live video from a local webcam.**
