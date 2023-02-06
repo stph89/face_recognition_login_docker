@@ -1,9 +1,10 @@
-# face_detection_ya_stph
-# Facial Recognition and Temperature Detection
+# face_detection_ya_stph(Facial Recognition and Temperature Detection)
+
 [Steph](https://github.com/stph89) &nbsp;
+
 [wenya](https://github.com/wenlla)  &nbsp;
 
-[Original]
+[Original]  &nbsp;
 
 [Aaron Moran](https://github.com/Moran98)  &nbsp;
 
@@ -88,6 +89,10 @@ Currently the packages for face_recognition are not fully supported on Windows, 
 
 	```
 	$ python manage.py runserver
+	
+	or
+	
+	$ python manage.py runserver --nothreading --noreload
 	```
 
 6. Make sure to navigate in your browser to 'http://localhost:8000/' to view the application.
