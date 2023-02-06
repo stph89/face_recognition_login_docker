@@ -1,7 +1,7 @@
 # Facial Recognition and Login System
 
 
-[Stephany Valderrama](https://github.com/stph89)&nbsp;and[Wenya Li](https://github.com/wenlla)  &nbsp;
+[Stephany Valderrama](https://github.com/stph89)&nbsp;and [Wenya Li](https://github.com/wenlla)  &nbsp;
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Moran98/facial-recognition)
 
