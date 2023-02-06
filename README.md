@@ -5,7 +5,8 @@
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Moran98/facial-recognition)
 
-  
+![imagen](https://user-images.githubusercontent.com/110174766/217071499-439be897-c7de-4474-a0a7-bc9b03ed876b.png)
+
 
 ## Requirements
 
