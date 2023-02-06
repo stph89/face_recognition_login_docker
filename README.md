@@ -22,7 +22,7 @@ The requirements needed for this project are as follows :
 
 ## Installation
   
-For run theses facial recognition demos, You required to install the following python module.
+For run theses facial recognition demos, you require to install the following python module.
 
 
 ```
