@@ -1,4 +1,6 @@
-# face_detection_ya_stph(Facial Recognition and Temperature Detection)
+# face_detection_ya_stph (Facial Recognition and Temperature Detection)
+
+[Now]  &nbsp;
 
 [Steph](https://github.com/stph89) &nbsp;
 
@@ -21,7 +23,7 @@
 
 The requirements needed for this project are as follows :
 
-* Python 3.3+
+* Python 3.8+
 
 * Linux, Windows, MacOS
 
