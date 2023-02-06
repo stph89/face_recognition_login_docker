@@ -3,13 +3,13 @@ import cv2
 import numpy as np
 import os
 
-
+# Para detectar las caras de la webcam del ordenado se debe utilizar Videocapture en 0
 video_capture = cv2.VideoCapture(0)
 
-path = "info_facial"
-image = os.listdir(path)
-known_face_encodings = []
-known_face_names = []
+path = "info_facial" # Esta es la carpeta donde van las imágenes de base de nuestro sistema de reconocimiento.
+image = os.listdir(path) # listado de imágenes de comparación o base del sistema de reconocimiento.
+known_face_encodings = [] # vectores de las imágenes de base
+known_face_names = [] # Nombres o identidades de los encodings
 
 for a in image:
     if a.endswith(('.jpg', '.jpeg', '.png')):
@@ -17,9 +17,11 @@ for a in image:
         name_face_encoding = face_recognition.face_encodings(name_image)
         if len(name_face_encoding) > 0:
             known_face_names.append(a.strip('.jpg'))
-            # 获取检测到人脸时面部编码信息中第一个面部编码
+            # Obtener la primera información de la cara cuando se detecte una cara
             name_face_encoding = name_face_encoding[0]
+            # Obtener el nombre de la cara detectada
             known_face_encodings.append(name_face_encoding)
+            # Unir el encoding con la cara detectada -->match entre el nombre y la imagen detectada
         else:
             print("¡No se detectó un área de cara válida!")
 # DEBUG print

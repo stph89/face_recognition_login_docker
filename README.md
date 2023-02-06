@@ -37,7 +37,7 @@ pip3 install face_recognition
 
 * #### For Windows --> follow the instructions of [face_recognition docs](https://github.com/ageitgey/face_recognition/issues/175#issue-257710508)
 
-**Note:** Currently the packages for face_recognition are not fully supported on Windows. 
+**Note:** Currently the packages for `face_recognition` are not fully supported on Windows. 
 
 
 ## Demos with `face recognition` and `openCV` libraries.
@@ -55,9 +55,11 @@ This is a face recognition system on live video from a local webcam.
 1. Navigate to directory
 
 	```
-	$ cd \facial-recognition\facialrecognition
+	$ cd \facial_recognition_webcam\
 	```
-2. Put into `info_facial` folder the images of the persons that you want to recognize in this demo.
+2. Put into `\info_facial` folder the images of the persons that you want to recognize in this demo.
+
+The image format could be `.jpg`, `.jpeg`, `.png`.
 
 4. Run the application:
 
@@ -74,7 +76,7 @@ This is a face recognition system on live video from a local webcam.
 1. Navigate to directory
 
 	```
-	$ cd \facial-recognition\facialrecognition
+	$ cd \login_recognition_app\facialrecognition
 	```
   
 
@@ -116,13 +118,20 @@ This is a face recognition system on live video from a local webcam.
 7. To access the admin type the following into the browser while the server is running `http://localhost:8000/admin`. 
 This page will display the database and allow the admin to edit user's accounts.
 
-8. To access the register type, please upload a image of the person to register and enter a username.
-
+8. To access the register type, please write an `username` and upload a image of this user to register into the system.
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
 ![Captura de Pantalla 2023-02-06 a las 16 08 46](https://user-images.githubusercontent.com/110174766/217021702-a0a3dc69-67a4-47fe-9fba-07145cca5a99.png)
 
-9. To login into the system, please click on `Login` and then look the camera for the recognition process. 
+The images taken in registration process are saved in `\login_recognition_app\facialrecognition\media\images` --> These are our base images for the recognition process.
 
+9. To login into the system, please click on `Login`, write the registered `username` and then look the camera for the login verification process. 
+
+![img.png](img.png)
 Press `Q` for take the picture for login.
+
+If the detected face make match with a registered username, then you'll have a `Welcome`:
+![img_3.png](img_3.png)
   
 10. Press `CTRL-C` to stop the process.
 
