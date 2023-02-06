@@ -130,9 +130,13 @@ This page will display the database and allow the admin to edit user's accounts.
 The images taken in registration process are saved in `\login_recognition_app\facialrecognition\media\images` --> These are our base images for the recognition process.
 
 9. To login into the system, please click on `Login`, write the registered `username` and then look the camera for the login photo verification process. 
+![imagen](https://user-images.githubusercontent.com/110174766/217068990-e27e177e-08e3-4d60-b941-6ea55fac71c0.png)
+
+Then, press `Q` for take the picture for login.
+
 ![imagen](https://user-images.githubusercontent.com/110174766/217068434-498c596d-6a82-4677-8b57-5028ca9226a8.png)
 
-Press `Q` for take the picture for login.
+
 
 If the detected face make match with a registered username, then you'll have a `Welcome` like this:
 
