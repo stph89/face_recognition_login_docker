@@ -93,8 +93,8 @@ This page will display the database and allow the admin to edit user's accounts.
 
 8. To access the register type, please upload a imeg of the person to register and enter a username.
 
-9. To login into the system, please click on Login and then look the camera for the recognition process.
+9. To login into the system, please click on Login and then look the camera for the recognition process. Press `Q` for take the picture for login.
   
 10. Press `CTRL-C` to stop the process.
 
-Modified code from: [Aaron Moran](https://github.com/Moran98)&nbsp;,[Arnas Steponavicius](https://github.com/ArnasSteponavicius00)&nbsp;and [Thomas Kenny](https://github.com/KennyThomas)
+Modified code from: [Aaron Moran](https://github.com/Moran98)&nbsp;, [Arnas Steponavicius](https://github.com/ArnasSteponavicius00)&nbsp;and [Thomas Kenny](https://github.com/KennyThomas)
