@@ -119,19 +119,23 @@ The image format could be `.jpg`, `.jpeg`, `.png`.
 This page will display the database and allow the admin to edit user's accounts.
 
 8. To access the register type, please write an `username` and upload a image of this user to register into the system.
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
+
+![imagen](https://user-images.githubusercontent.com/110174766/217067598-3f40c0fa-5d2a-4294-ad05-dc5e64b23208.png)
+![imagen](https://user-images.githubusercontent.com/110174766/217067656-456b2aec-3837-4415-a125-d45029e51aa7.png)
+
 ![Captura de Pantalla 2023-02-06 a las 16 08 46](https://user-images.githubusercontent.com/110174766/217021702-a0a3dc69-67a4-47fe-9fba-07145cca5a99.png)
 
 The images taken in registration process are saved in `\login_recognition_app\facialrecognition\media\images` --> These are our base images for the recognition process.
 
 9. To login into the system, please click on `Login`, write the registered `username` and then look the camera for the login verification process. 
 
-![img.png](img.png)
+
 Press `Q` for take the picture for login.
 
-If the detected face make match with a registered username, then you'll have a `Welcome`:
-![img_3.png](img_3.png)
+If the detected face make match with a registered username, then you'll have a `Welcome` like this:
+
+![imagen](https://user-images.githubusercontent.com/110174766/217067344-bb8112fa-65e3-478d-8886-db4b3a63f949.png)
+
   
 10. Press `CTRL-C` to stop the process.
 
