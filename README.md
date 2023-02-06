@@ -94,7 +94,7 @@ This page will display the database and allow the admin to edit user's accounts.
 
 8. To access the register type, please upload a imeg of the person to register and enter a username.
 
-!(https://user-images.githubusercontent.com/110174766/217021291-671b3485-e2a7-42fa-89a7-55b7331f3846.png)
+![Captura de Pantalla 2023-02-06 a las 16 08 46](https://user-images.githubusercontent.com/110174766/217021702-a0a3dc69-67a4-47fe-9fba-07145cca5a99.png)
 
 9. To login into the system, please click on `Login and then look the camera for the recognition process. 
 Press `Q` for take the picture for login.
