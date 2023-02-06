@@ -45,7 +45,7 @@ We proposed two demos using [face recognition library](https://github.com/ageitg
 
  * **Simple sample of Face recognition system on live video from a local webcam.**
  
- * **Facial login web application with Django framework and my-sql databases.**
+ * **Facial login web application with Django framework and sqlite databases.**
   
   
   
