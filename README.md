@@ -113,6 +113,9 @@ The image format could be `.jpg`, `.jpeg`, `.png`.
 	```
 
 6. Make sure to navigate in your browser to `http://localhost:8000/` to view the application.
+
+![imagen](https://user-images.githubusercontent.com/110174766/217067999-bd319b8e-af8b-4cbb-a7d7-f83b22477159.png)
+
   
 
 7. To access the admin type the following into the browser while the server is running `http://localhost:8000/admin`. 
@@ -123,12 +126,11 @@ This page will display the database and allow the admin to edit user's accounts.
 ![imagen](https://user-images.githubusercontent.com/110174766/217067598-3f40c0fa-5d2a-4294-ad05-dc5e64b23208.png)
 ![imagen](https://user-images.githubusercontent.com/110174766/217067656-456b2aec-3837-4415-a125-d45029e51aa7.png)
 
-![Captura de Pantalla 2023-02-06 a las 16 08 46](https://user-images.githubusercontent.com/110174766/217021702-a0a3dc69-67a4-47fe-9fba-07145cca5a99.png)
 
 The images taken in registration process are saved in `\login_recognition_app\facialrecognition\media\images` --> These are our base images for the recognition process.
 
-9. To login into the system, please click on `Login`, write the registered `username` and then look the camera for the login verification process. 
-
+9. To login into the system, please click on `Login`, write the registered `username` and then look the camera for the login photo verification process. 
+![imagen](https://user-images.githubusercontent.com/110174766/217068434-498c596d-6a82-4677-8b57-5028ca9226a8.png)
 
 Press `Q` for take the picture for login.
 
