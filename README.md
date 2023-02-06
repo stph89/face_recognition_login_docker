@@ -93,7 +93,7 @@ Currently the packages for face_recognition are not fully supported on Windows, 
 7. To access the admin type the following into the browser while the server is running `http://localhost:8000/admin`. 
 This page will display the database and allow the admin to edit user's accounts.
 
-8. To access the register type, please upload a imeg of the person to register and enter a username.
+8. To access the register type, please upload a image of the person to register and enter a username.
 
 ![Captura de Pantalla 2023-02-06 a las 16 08 46](https://user-images.githubusercontent.com/110174766/217021702-a0a3dc69-67a4-47fe-9fba-07145cca5a99.png)
 
