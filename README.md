@@ -43,9 +43,9 @@ pip3 install face_recognition
 ## Demos with `face recognition` and `openCV` libraries.
 We proposed two demos using [face recognition library](https://github.com/ageitgey/face_recognition):
 
- **i. Simple sample of Face recognition system on live video from a local webcam.**
+ * **Simple sample of Face recognition system on live video from a local webcam.**
  
- **ii. Facial login web application with Django framework and my-sql databases.**
+ * **Facial login web application with Django framework and my-sql databases.**
   
   
   
