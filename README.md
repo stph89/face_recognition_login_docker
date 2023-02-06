@@ -97,4 +97,4 @@ This page will display the database and allow the admin to edit user's accounts.
   
 10. Press `CTRL-C` to stop the process.
 
-Modified code from: [Aaron Moran](https://github.com/Moran98)&nbsp;, [Arnas Steponavicius](https://github.com/ArnasSteponavicius00)&nbsp; and [Thomas Kenny](https://github.com/KennyThomas)
+Modified code from: [Aaron Moran](https://github.com/Moran98)&nbsp;,[Arnas Steponavicius](https://github.com/ArnasSteponavicius00)&nbsp;and [Thomas Kenny](https://github.com/KennyThomas)
