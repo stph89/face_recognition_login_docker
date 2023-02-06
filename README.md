@@ -97,7 +97,7 @@ This page will display the database and allow the admin to edit user's accounts.
 
 ![Captura de Pantalla 2023-02-06 a las 16 08 46](https://user-images.githubusercontent.com/110174766/217021702-a0a3dc69-67a4-47fe-9fba-07145cca5a99.png)
 
-9. To login into the system, please click on `Login and then look the camera for the recognition process. 
+9. To login into the system, please click on `Login` and then look the camera for the recognition process. 
 Press `Q` for take the picture for login.
   
 10. Press `CTRL-C` to stop the process.
