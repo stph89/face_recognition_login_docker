@@ -22,9 +22,9 @@ for a in image:
             known_face_encodings.append(name_face_encoding)
         else:
             print("¡No se detectó un área de cara válida!")
-   # DEBUG print
-    print(known_face_encodings)
-    print(known_face_names)
+# DEBUG print
+# print(known_face_encodings)
+# print(known_face_names)
 
 # Initialize some variables
 face_locations = []
@@ -95,3 +95,5 @@ while True:
 # Release handle to the webcam
 video_capture.release()
 cv2.destroyAllWindows()
+
+
