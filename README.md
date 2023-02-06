@@ -33,9 +33,9 @@ pip3 install Pillow
 pip3 install face_recognition
 ```
   **Note:** Make sure you are using the latest version of pip.
-#### For Mac or Linux --> follow the instructions of [face_recognition docs](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
+* #### For Mac or Linux --> follow the instructions of [face_recognition docs](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
 
-#### For Windows --> follow the instructions of [face_recognition docs](https://github.com/ageitgey/face_recognition/issues/175#issue-257710508)
+* #### For Windows --> follow the instructions of [face_recognition docs](https://github.com/ageitgey/face_recognition/issues/175#issue-257710508)
 
 **Note:** Currently the packages for face_recognition are not fully supported on Windows. 
 
