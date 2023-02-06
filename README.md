@@ -1,18 +1,11 @@
-# face_detection_ya_stph (Facial Recognition and Temperature Detection)
+# Facial Recognition and Login System
 
-[Now]  &nbsp;
 
-[Steph](https://github.com/stph89) &nbsp;
+[Stephany Valderrama](https://github.com/stph89) &nbsp; and [Wenya Li](https://github.com/wenlla)  &nbsp;
 
-[wenya](https://github.com/wenlla)  &nbsp;
+Modified code from 
 
-[Original]  &nbsp;
-
-[Aaron Moran](https://github.com/Moran98)  &nbsp;
-
-[Arnas Steponavicius](https://github.com/ArnasSteponavicius00)  &nbsp;
-
-[Thomas Kenny](https://github.com/KennyThomas)
+[Aaron Moran](https://github.com/Moran98)  &nbsp;, [Arnas Steponavicius](https://github.com/ArnasSteponavicius00)  &nbsp; and [Thomas Kenny](https://github.com/KennyThomas)
 
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Moran98/facial-recognition)
@@ -100,12 +93,11 @@ Currently the packages for face_recognition are not fully supported on Windows, 
 6. Make sure to navigate in your browser to 'http://localhost:8000/' to view the application.
   
 
-7. To access the admin type the following into the browser while the server is running - 'http://localhost:8000/admin'. This page will display the database and allow the admin to edit user's accounts.
+7. To access the admin type the following into the browser while the server is running - 'http://localhost:8000/admin'. 
+This page will display the database and allow the admin to edit user's accounts.
+
+8. To access the register type, please upload a imeg of the person to register and enter a username.
+
+9. To login into the system, please click on Login and then look the camera for the recognition process.
   
-
-8. Press `CTRL-C` to stop the process.
-
-## Acknowledgments:
-* [Daniel Cregg - Project Supervisor](https://github.com/danielcregg)
-* [Adam Geitgey](https://github.com/ageitgey/face_recognition)
-* [Links to articles used in the project](https://github.com/Moran98/facial-recognition/blob/master/doc's/References.txt)
+10. Press `CTRL-C` to stop the process.
