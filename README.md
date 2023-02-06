@@ -73,7 +73,8 @@ Currently the packages for face_recognition are not fully supported on Windows, 
 	```
 	$ python manage.py createsuperuser
 	```
-  
+ (https://user-images.githubusercontent.com/110174766/217020849-06fb9e59-06e9-43c6-98f6-76ccc1043ded.png)
+
 
 5. Run the program.
 
@@ -88,12 +89,15 @@ Currently the packages for face_recognition are not fully supported on Windows, 
 6. Make sure to navigate in your browser to 'http://localhost:8000/' to view the application.
   
 
-7. To access the admin type the following into the browser while the server is running - 'http://localhost:8000/admin'. 
+7. To access the admin type the following into the browser while the server is running `http://localhost:8000/admin`. 
 This page will display the database and allow the admin to edit user's accounts.
 
 8. To access the register type, please upload a imeg of the person to register and enter a username.
 
-9. To login into the system, please click on Login and then look the camera for the recognition process. Press `Q` for take the picture for login.
+(https://user-images.githubusercontent.com/110174766/217021291-671b3485-e2a7-42fa-89a7-55b7331f3846.png)
+
+9. To login into the system, please click on `Login and then look the camera for the recognition process. 
+Press `Q` for take the picture for login.
   
 10. Press `CTRL-C` to stop the process.
 
