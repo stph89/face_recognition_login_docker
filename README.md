@@ -1,12 +1,7 @@
 # Facial Recognition and Login System
 
 
-[Stephany Valderrama](https://github.com/stph89) &nbsp; and [Wenya Li](https://github.com/wenlla)  &nbsp;
-
-Modified code from 
-
-[Aaron Moran](https://github.com/Moran98)  &nbsp;, [Arnas Steponavicius](https://github.com/ArnasSteponavicius00)  &nbsp; and [Thomas Kenny](https://github.com/KennyThomas)
-
+[Stephany Valderrama](https://github.com/stph89) &nbsp;and [Wenya Li](https://github.com/wenlla)  &nbsp;
 
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Moran98/facial-recognition)
 
@@ -101,3 +96,5 @@ This page will display the database and allow the admin to edit user's accounts.
 9. To login into the system, please click on Login and then look the camera for the recognition process.
   
 10. Press `CTRL-C` to stop the process.
+
+Modified code from: [Aaron Moran](https://github.com/Moran98)  &nbsp;, [Arnas Steponavicius](https://github.com/ArnasSteponavicius00)  &nbsp; and [Thomas Kenny](https://github.com/KennyThomas)
