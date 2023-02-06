@@ -41,19 +41,19 @@ pip3 install face_recognition
 
 #### Installing Packages on Windows
 
-Currently the packages for face_recognition are not fully supported on Windows, to get around this issue you must follows the instructions below.
+Currently the packages for face_recognition are not fully supported on Windows, to get around this issue you must follows the instructions of [face_recognition docs](https://github.com/ageitgey/face_recognition/issues/175#issue-257710508)
 
-* https://github.com/ageitgey/face_recognition/issues/175#issue-257710508
 
 ## Demos with face recognition and openCV libraries.
-We proposed two demos using face [recognition library](https://github.com/ageitgey/face_recognition):
+We proposed two demos using [face recognition library](https://github.com/ageitgey/face_recognition):
 
-  * **i. Simple sample of Face recognition system on live video from a local webcam.**
-  * **ii. Facial login web application with Django framework and my-sql databases.**
+ **i. Simple sample of Face recognition system on live video from a local webcam.**
+ 
+ **ii. Facial login web application with Django framework and my-sql databases.**
   
   
   
-### Running the Face recognition system on live video from a local webcam
+## Running the Face recognition system on live video from a local webcam
 This is a face recognition system on live video from a local webcam.
 
 1. Navigate to directory
@@ -69,7 +69,7 @@ This is a face recognition system on live video from a local webcam.
 	$ python facial.py 
 	```
 	
-5. Look at the camera for take the picture to recognize and compare with the base images.
+5. Look at the camera for take the picture to recognize faces and compare with the base images of the system.
 	
 7. Press `CTRL-C` to stop the process.
 
