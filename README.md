@@ -1,4 +1,4 @@
-# Facial Recognition and Login System
+# Facial Recognition and Login Facial System
 
 
 [Stephany Valderrama](https://github.com/stph89)&nbsp;and [Wenya Li](https://github.com/wenlla)  &nbsp;
@@ -32,6 +32,7 @@ Then you are required to install the following python module (Make sure you are 
 
 ```
 pip3 install django
+pip3 install numpy
 pip3 install opencv-python
 pip3 install Pillow
 pip3 install face_recognition
@@ -44,9 +45,31 @@ Currently the packages for face_recognition are not fully supported on Windows, 
 
 * https://github.com/ageitgey/face_recognition/issues/175#issue-257710508
 
+  ** We proposed two demos using face [recognition library](https://github.com/ageitgey/face_recognition):**
+  **i. Simple sample of Face recognition system on live video from a local webcam.**
+  **ii. Facial login web application with Django framework and my-sql databases.**
   
+  Face recognition system on live video from a local webcam.
+  
+## Running the Face recognition system on live video from a local webcam
+1. Navigate to directory
 
-## Running the Application Locally
+	```
+	$ cd \facial-recognition\facialrecognition
+	```
+2. Put into `info_facial` folder the images of the persons that you want to recognize in this demo.
+
+4. Run the application:
+
+	```
+	$ python facial.py 
+	```
+	
+5. Look at the camera for take the picture to recognize and compare with the base images.
+	
+7. Press `CTRL-C` to stop the process.
+
+## Running the Facial login web application Locally
 
 1. Navigate to directory
 
