@@ -133,13 +133,15 @@ def takePhotoLogin():
     context = {}
     # Get user to take image
     capture = cv2.VideoCapture(0)
+    print(capture)
     # Create live feed to take image and save photo
     while True:
         ret, frame = capture.read()
-        cv2.imshow("Take Verification picture", frame)
-        if (cv2.waitKey(1) & 0xFF == ord('q')):
-            cv2.imwrite(f"{VERIF_DIR}/photo.png", frame)
-            break
+        if frame is not True:
+            cv2.imshow("Take Verification picture", frame)
+            if (cv2.waitKey(1) & 0xFF == ord('q')):
+                cv2.imwrite(f"{VERIF_DIR}/photo.png", frame)
+                break
     capture.release()
     cv2.destroyAllWindows()
     cv2.waitKey(1)
