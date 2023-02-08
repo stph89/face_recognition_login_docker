@@ -25,6 +25,7 @@ The requirements needed for this project are as follows :
   
 For run theses facial recognition demos, you require to install the following python module.
 
+You can run `pip install requirements.txt`
 
 ```
 pip3 install django
@@ -40,6 +41,15 @@ pip3 install face_recognition
 
 **Note:** Currently the packages for `face_recognition` are not fully supported on Windows. 
 
+## Estructura de este repositorio
+
+| Carpeta                     | Fichero            | Descripción                                                       |
+|-----------------------------|--------------------|-------------------------------------------------------------------|
+| `facial_recognition_webcam` | `facial.py`        | Face recognition system on live video from a local webcam.        |
+| `login_recognition_app`     | `manage.py`        | Archivo principal para el funcionamiento del sistema de login.    |
+|                             | `.gitignore`       | Para ignorar los archivos sensibles como imégenes.                |
+|                             | `requirements.txt` | Librerías y paquetes utilizados par la creación de este proyecto. |
+|                             | `README.md`        | Descripción de este repositorio                                   |           
 
 ## Demos with `face recognition` and `openCV` libraries.
 We proposed two demos using [face recognition library](https://github.com/ageitgey/face_recognition):
