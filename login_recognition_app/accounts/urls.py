@@ -4,6 +4,13 @@ from django.contrib.auth.views import LoginView, LogoutView
 from django.conf import settings
 from django.conf.urls.static import static 
 
+"""Configuracion de las opciones de la interfaz:
+- login
+- logout
+- register
+- loggedIn
+- photoLogin"""
+
 urlpatterns = [
     url(r'^$', views.home),
     url(r'^login/$', views.login, name="login"),
