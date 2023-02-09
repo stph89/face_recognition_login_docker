@@ -3,7 +3,8 @@
 
 [Stephany Valderrama](https://github.com/stph89)&nbsp;and [Wenya Li](https://github.com/wenlla)  &nbsp;
 
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Moran98/facial-recognition)
+**Thanks to:**  [Aaron Moran](https://github.com/Moran98)&nbsp;, [Arnas Steponavicius](https://github.com/ArnasSteponavicius00)&nbsp;and [Thomas Kenny](https://github.com/KennyThomas).
+**Modified code from those repositories**
 
 ![imagen](https://user-images.githubusercontent.com/110174766/217071499-439be897-c7de-4474-a0a7-bc9b03ed876b.png)
 
@@ -43,13 +44,19 @@ pip3 install face_recognition
 
 ## Estructura de este repositorio
 
-| Carpeta                     | Fichero            | Descripción                                                       |
-|-----------------------------|--------------------|-------------------------------------------------------------------|
-| `facial_recognition_webcam` | `facial.py`        | Face recognition system on live video from a local webcam.        |
-| `login_recognition_app`     | `manage.py`        | Archivo principal para el funcionamiento del sistema de login.    |
-|                             | `.gitignore`       | Para ignorar los archivos sensibles como imégenes.                |
-|                             | `requirements.txt` | Librerías y paquetes utilizados par la creación de este proyecto. |
-|                             | `README.md`        | Descripción de este repositorio                                   |           
+| Carpeta                     | Folder / Fichero    | Descripción                                                                              |
+|-----------------------------|---------------------|------------------------------------------------------------------------------------------|
+| `facial_recognition_webcam` | `facial.py`         | Face recognition system on live video from a local webcam.                               |
+|`facial_recognition_webcam`  | `/info_facial`      | Imágenes de referencia para reconocimiento facial múltiple.                              |
+| `login_recognition_app`     | `/accounts`         | Codigo html para el registro de usuarios.                                                |
+| `login_recognition_app`     | `/facialrecognition`| Configuracion de metodos, funciones y conexion entre modulos par despliegue en Django.   |
+| `login_recognition_app`     | `~/ /media`         | Aquí se almacenan las imágenes de los usuarios registrados.                              |
+| `login_recognition_app`     | `db.sqlite3`        | base de datos SQlite donde se guardan las migraciones de los nuevos usuarios registrados.|
+| `login_recognition_app`     | `manage.py`         | Archivo principal para el funcionamiento del sistema de login.                           |
+|                             | `.gitignore`        | Para ignorar los archivos sensibles como imégenes.                                       |
+|                             | `requirements.txt`  | Librerías y paquetes utilizados par la creación de este proyecto.                        |
+|                             | `README.md`         | Descripción de este repositorio                                                          |
+           
 
 ## Demos with `face recognition` and `openCV` libraries.
 We proposed two demos using [face recognition library](https://github.com/ageitgey/face_recognition):
@@ -158,4 +165,4 @@ If the detected face make match with a registered username, then you'll have a `
   
 10. Press `CTRL-C` to stop the process.
 
-Modified code from: [Aaron Moran](https://github.com/Moran98)&nbsp;, [Arnas Steponavicius](https://github.com/ArnasSteponavicius00)&nbsp;and [Thomas Kenny](https://github.com/KennyThomas)
+
