@@ -46,16 +46,16 @@ pip3 install face_recognition
 
 | Carpeta                     | Folder / Fichero    | Descripción                                                                              |
 |-----------------------------|---------------------|------------------------------------------------------------------------------------------|
-|                             | `.gitignore`        | Para ignorar los archivos sensibles como imégenes.                                       |
-|                             | `requirements.txt`  | Librerías y paquetes utilizados par la creación de este proyecto.                        |
-|                             | `README.md`         | Descripción de este repositorio                                                          |
 | `facial_recognition_webcam` | `facial.py`         | Face recognition system on live video from a local webcam.                               |
 |`facial_recognition_webcam`  | `/info_facial`      | Imágenes de referencia para reconocimiento facial múltiple.                              |
 | `login_recognition_app`     | `/accounts`         | Codigo html para el registro de usuarios.                                                |
-| `login_recognition_app`     | `/facialrecognition´| Configuracion de metodos, funciones y conexion entre modulos par despliegue en Django.   |
-| `login_recognition_app`     | `~/ /media´         | Aquí se almacenan las imágenes de los usuarios registrados.                              |
-| `login_recognition_app`     | `db.sqlite3´        | base de datos SQlite donde se guardan las migraciones de los nuevos usuarios registrados.|
+| `login_recognition_app`     | `/facialrecognition`| Configuracion de metodos, funciones y conexion entre modulos par despliegue en Django.   |
+| `login_recognition_app`     | `~/ /media`         | Aquí se almacenan las imágenes de los usuarios registrados.                              |
+| `login_recognition_app`     | `db.sqlite3`        | base de datos SQlite donde se guardan las migraciones de los nuevos usuarios registrados.|
 | `login_recognition_app`     | `manage.py`         | Archivo principal para el funcionamiento del sistema de login.                           |
+|                             | `.gitignore`        | Para ignorar los archivos sensibles como imégenes.                                       |
+|                             | `requirements.txt`  | Librerías y paquetes utilizados par la creación de este proyecto.                        |
+|                             | `README.md`         | Descripción de este repositorio                                                          |
            
 
 ## Demos with `face recognition` and `openCV` libraries.
