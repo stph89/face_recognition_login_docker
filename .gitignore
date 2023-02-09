@@ -1,4 +1,5 @@
-info_facial/* 
+info_facial/*
+info_facial/
 .mypy_cache
 .coverage
 htmlcov
@@ -13,4 +14,9 @@ img_2.png
 img_3.png
 .png
 media/*
+media/
+images/*
+images/
+verif/*
+verif/
 **/__pycache__
