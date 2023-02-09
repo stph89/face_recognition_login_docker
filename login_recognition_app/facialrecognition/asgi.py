@@ -1,9 +1,9 @@
 """
-ASGI config for facialrecognition project.
+--> Configuración ASGI para nuestra app de login por reconocimiento facial.
 
-It exposes the ASGI callable as a module-level variable named ``application``.
+--> la llamada ASGI se configura como una variable a nivel de módulo llamada ``application``.
 
-For more information on this file, see
+--> Consultar la docu de Django:
 https://docs.djangoproject.com/en/3.0/howto/deployment/asgi/
 """
 
