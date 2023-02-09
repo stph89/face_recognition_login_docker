@@ -1,8 +1,6 @@
-
-"""Configuración de estilo de letras, tamaño y color de fuente en CSS en Lenguaje CSS"""
 body{
 	font-family:  Arial, Helvetica, sans-serif;
-	background-color: #f2f2f2;
+	background-color: navajowhite;
 }
 
 hr {
@@ -23,34 +21,34 @@ a:active {
 }
 
 #link { 
-  color: white; 
+  color: cornflowerblue;
 }
 
 .btn{
   background-color: black;
-  color: white;
+  color: blueviolet;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   border-radius: 50%;
 }
 
 .btn:hover{
-  color: white;
+  color: blueviolet;
 }
 
 .dropdown{
-  color: white;
-  text-indent:10px;
+  color: black;
+  text-indent:18px;
 }
 
 .dropdown-header{
-  color: white;
+  color: cornflowerblue;
 }
 
 .dropdown-menu{
-  background-color: black;
+  background-color: blueviolet;
   width: 100px;
-  outline: black;
+  outline: blueviolet;
 }
 
 #icon{
@@ -58,7 +56,7 @@ a:active {
 }
 
 #hicon {
-  color: black;
+  color: blueviolet;
 }
 
 #head{
@@ -72,21 +70,21 @@ a:active {
 
 
 h1{
-	color: black;
+	color: darkorange;
 	text-align: center;
 	text-transform: uppercase;
   font-family: 'Noto Sans', sans-serif;
 }
 
 h3{
-  color: black;
+  color: cadetblue;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Noto Sans', sans-serif; 
 }
 
 .button {
-  background-color: black;
+  background-color: blueviolet;
   border: none;
   color: white;
   padding: 15px 32px;

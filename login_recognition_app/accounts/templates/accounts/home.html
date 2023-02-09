@@ -1,50 +1,49 @@
 {% extends 'layout.html' %}
-<h1>Home</h1>
+<h1>Login Facial Factoria F5</h1>
 <!DOCTYPE html>
     <html>
     <head>
         {% block head %}
         {% load static %}
         <link rel="stylesheet" href="{% static 'accounts/style.css' %}" type="text/css">
-        <title>Home</title>
+        <title>Facial Login</title>
         {% endblock %}
     </head>
         <body>
             {% block body%}
             <nav class="navbar navbar-light bg-dark">
-                <span id="head" class="navbar-brand mb-0 h1"><a id="link" style="text-decoration: none;" href="/home">facial.recognition</a></span>
+                <span id="head" class="navbar-brand mb-0 h1"><a id="link" style="text-decoration: none;" href="/home">Login con Reconocimiento Facial</a></span>
                 <div class="dropdown">
                   <button class="btn bg-dark dropdown-toggle" type="button" data-toggle="dropdown">
                   <i style="font-size:24px" class="fa">&#xf05a;</i>
                   <span class="caret"></span></button>
                   <ul class="dropdown-menu bg-dark">
-                      <li class="dropdown-header">Team</li><hr class="hr2">
-                      <li><a href="https://github.com/KennyThomas" target="_blank"> Thomas</a></li>
-                      <li><a href="https://github.com/Moran98" target="_blank"> Aaron</a></li>
-                      <li><a href="https://github.com/ArnasSteponavicius" target="_blank"> Arnas</a></li>
+                      <li class="dropdown-header">Nuestro Equipo</li><hr class="hr2">
+                      <li><a href="https://github.com/wenlla" target="_blank"> Wenlla</a></li>
+                      <li><a href="https://github.com/stph89" target="_blank"> Stephany</a></li>
                   </ul>
                 </div>
             </nav>
             <br>
         <div class="div1">
-            <h1 id="welcome">WELCOME</h1>
+            <h1 id="welcome">Bienvenid@s a la fiesta de factoria f5!</h1>
             <hr>
         </div>
 
         <br><br>
         <!-- Button Div for LOGIN / REGISTER -->
         <div class="div2">
-        <h3>Do you wish to</h3>
+        <h3>Deseas Ingresar o Registrarte</h3>
         <br><br>
-        <button class="button"><a id="link" href="/home/login">LOGIN</a></button>
-        <button class="button"><a id="link" href="/home/register">REGISTER</a></button>
+        <button class="button"><a id="link" href="/home/login">Ingresar</a></button>
+        <button class="button"><a id="link" href="/home/register">Registrate</a></button>
         <br><br>
         </div>
 
         <hr>
         <div class="contact">
         <td>
-            <a id="hicon" href="https://github.com/Moran98/facial-recognition" target="_blank"><i id="icon" class="fa fa-github" ></i></a>
+            <a id="hicon" href="https://github.com/stph89/face_recognition_ComputerVision" target="_blank"><i id="icon" class="fa fa-github" ></i></a>
         </td>
         </div>
             {%endblock%}

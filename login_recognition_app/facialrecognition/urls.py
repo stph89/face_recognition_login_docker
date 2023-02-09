@@ -8,7 +8,7 @@ Guardar imagenes en carpeta/localhost redirigir en runserver/ navegacion
 """
 from django.contrib import admin
 from django.urls import path, include
-from facialrecognition import views
+from facialrecognition import views # en views estan todos los metodos para la toma de imagenes y verificacion
 
 urlpatterns = [
     path('', include('accounts.urls')),
