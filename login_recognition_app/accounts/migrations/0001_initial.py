@@ -4,6 +4,10 @@ from django.db import migrations, models
 import django.db.models.deletion
 
 """Se crea la Clase Migration:
+-id-->primary key
+-description
+-user
+
 --> Para correr el programa es necesario correr las migraciones del archivo manage.py 
 para inicializar esta app
 --> Django hace migraciones automáticas de las tablas, modelos y cualquier
