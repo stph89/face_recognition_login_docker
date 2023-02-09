@@ -25,6 +25,11 @@ user_photo_name = []
 def home(request):
     return render(request, 'accounts/home.html')
 
+"""Método login
+Paso 1: Solicitar user name
+Paso 2: Verificación de foto si username existe
+Paso 3: Mensaje de error si no existe"""
+
 
 def login(request):
     context = {}
@@ -33,10 +38,10 @@ def login(request):
     if request.method == "POST":
         form = LoginForm(request.POST, request.FILES)
         if form.is_valid():
-            userName = form.cleaned_data.get("username")
+            userName = form.cleaned_data.get("Nombre de Usuario")
             userLoginName = userName
             users = UserProfile.objects.filter(
-                title=userLoginName)  # If the username matches a name in the database move to verify photo
+                title=userLoginName)  # Si el nombre de usuario coincide con un nombre de la base de datos pasar a verificar foto
             if users:
                 return render(request, 'accounts/verifyLogin.html', context)
 
