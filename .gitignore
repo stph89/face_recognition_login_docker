@@ -19,4 +19,10 @@ images/*
 images/
 verif/*
 verif/
+login_recognition_app/facialrecognition/media/images/
+**login_recognition_app/facialrecognition/media/images/
+login_recognition_app/facialrecognition/media/images/*
+login_recognition_app/facialrecognition/media/verif/
+login_recognition_app/facialrecognition/media/verif/*
+**login_recognition_app/facialrecognition/media/verif/
 **/__pycache__
