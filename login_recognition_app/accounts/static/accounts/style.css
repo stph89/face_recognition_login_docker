@@ -117,6 +117,11 @@ h3{
   background-color: white;
 }
 
+.imgSize{
+   width: 300px;
+  height: 500px;
+}
+
 .div3{
   text-align: center;
   align-items: center;
