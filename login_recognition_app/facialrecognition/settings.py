@@ -112,7 +112,9 @@ USE_TZ = True
 # como imagenes de referencia de identificación para el login
 
 STATIC_URL = '/static/'
-
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static').replace('\\', '/'),
+)
 MEDIA_URL = '/images/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'facialrecognition/media')
 
